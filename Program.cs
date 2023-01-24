@@ -10,8 +10,6 @@ builder.Services.AddAuthentication(AuthSchema)
 
 var app = builder.Build();
 
-
-
 app.UseAuthentication();
 
 app.Use((ctx, next) =>
